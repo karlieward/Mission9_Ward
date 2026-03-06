@@ -25,7 +25,11 @@ const schools = (teamsData as TeamsJson).teams;
 
 // welcome heading
 function Welcome() {
-  return <h1>Weclome To MARCH MADNESS!</h1>
+  return <>
+  <h1>Weclome To MARCH MADNESS!</h1>
+  <p>Here are all the teams participating in the NCAA:</p>
+  </>
+  
 }
 
 // school info 'card'
